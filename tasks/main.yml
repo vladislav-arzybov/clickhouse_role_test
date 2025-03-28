@@ -29,5 +29,3 @@
   register: create_db
   failed_when: create_db.rc != 0 and create_db.rc !=82
   changed_when: create_db.rc == 0
-  retries: 2
-  until: create_db.rc == 0
