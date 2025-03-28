@@ -1,7 +1,7 @@
 Clickhouse
 =========
 
-This role install clickhouse on EL
+This role install clickhouse on EL.
 
 
 Role Variables
